@@ -33,8 +33,8 @@ let generateHTML = function generateHTML(employeeObjects) {
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item" id="${employee.id}"> ID: ${employee.id}</li>
-                  <li class="list-group-item" id="${employee.email}">Email: ${employee.email}</li>
-                  <li class="list-group-item" id="${employee.github}">Github: <a>https://github.com/${employee.github}</a>${employee.github}</li>
+                  <li class="list-group-item" id="${employee.email}">Email: <a href="mailto: ${employee.email}">${employee.email}</a></li>
+                  <li class="list-group-item" id="${employee.github}">Github: <a href="https://github.com/${employee.github}">${employee.github}</a></li>
                 </ul>
             </div> \n`
             break;
@@ -47,7 +47,7 @@ let generateHTML = function generateHTML(employeeObjects) {
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item" id="${employee.id}">ID: ${employee.id}</li>
-                  <li class="list-group-item" id="${employee.email}">Email: ${employee.email}</li>
+                  <li class="list-group-item" id="${employee.email}">Email: <a href="mailto: ${employee.email}" >${employee.email}</a></li>
                   <li class="list-group-item" id="${employee.school}">School: ${employee.school}</li>
                 </ul>
             </div> \n`
