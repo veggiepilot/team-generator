@@ -1,6 +1,4 @@
 
-// const employeeObjects = require('./employeeObjects');
-
 let renderEmployees = '';
 
 let generateHTML = function generateHTML(employeeObjects) {
@@ -34,7 +32,7 @@ let generateHTML = function generateHTML(employeeObjects) {
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item" id="${employee.id}"> ID: ${employee.id}</li>
                   <li class="list-group-item" id="${employee.email}">Email: <a href="mailto: ${employee.email}">${employee.email}</a></li>
-                  <li class="list-group-item" id="${employee.github}">Github: <a href="https://github.com/${employee.github}">${employee.github}</a></li>
+                  <li class="list-group-item" id="${employee.github}">Github: <a href="https://github.com/${employee.github}" target="_blank">${employee.github}</a></li>
                 </ul>
             </div> \n`
             break;
