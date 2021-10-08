@@ -12,8 +12,9 @@ This is a Node.js command-line application that takes in information about emplo
 2. [USAGE](#Usage)
 3. [CONTRIBUTING](#Contributing)
 4. [TESTS](#Tests)
-5. [QUESTIONS](#Questions)
-6. [LICENSE](#License)
+5. [DEMO](#Demo)
+6. [QUESTIONS](#Questions)
+7. [LICENSE](#License)
 
 ## Installation
 
@@ -40,6 +41,10 @@ Feel free to contact me at johanneschitura@gmail.com if you would like to contri
 ## Tests
 
 In order to start unit testing, you will need to run the command `npm test`. This will run tests using the Jest Testing Framework.
+
+## Demo
+
+Here is where you can view the demo of the project: [PROJECT DEMO](https://youtu.be/NrJ_fFHLvT4)
 
 ## Questions
 
