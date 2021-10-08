@@ -12,7 +12,7 @@ let generateHTML = function generateHTML(employeeObjects) {
             `<div class="card mb-5" style="width: 18rem;">
               <div class="card-body manager">
                 <h5 class="card-title" id="${employee.name}">${employee.name}</h5>
-                <p class="card-text" id="${employee.constructor.name}">${employee.constructor.name}</p>
+                <p class="card-text" id="${employee.constructor.name}"><i class="fas fa-male"></i> ${employee.constructor.name}</p>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="${employee.id}">ID: ${employee.id}</li>
@@ -29,7 +29,7 @@ let generateHTML = function generateHTML(employeeObjects) {
             `<div class="card mb-5" style="width: 18rem;">
               <div class="card-body manager">
                 <h5 class="card-title" id="${employee.name}">${employee.name}</h5>
-                <p class="card-text" id="${employee.constructor.name}">${employee.constructor.name}</p>
+                <p class="card-text" id="${employee.constructor.name}"><i class="fas fa-laptop-code"></i> ${employee.constructor.name}</p>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="${employee.id}"> ID: ${employee.id}</li>
@@ -46,7 +46,7 @@ let generateHTML = function generateHTML(employeeObjects) {
             `<div class="card mb-5" style="width: 18rem;">
               <div class="card-body manager">
                 <h5 class="card-title" id="${employee.name}">${employee.name}</h5>
-                <p class="card-text" id="${employee.constructor.name}">${employee.constructor.name}</p>
+                <p class="card-text" id="${employee.constructor.name}"><i class="fas fa-graduation-cap"></i> ${employee.constructor.name}</p>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item" id="${employee.id}">ID: ${employee.id}</li>
